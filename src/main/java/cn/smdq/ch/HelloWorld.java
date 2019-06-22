@@ -8,5 +8,6 @@ package cn.smdq.ch;
 public class HelloWorld {
     public void print() {
         System.out.println("Hello World!");
+        System.out.println("This is beautiful !");
     }
 }
