@@ -10,6 +10,6 @@ public class HelloWorld {
         System.out.println("Hello World!");
         System.out.println("This is beautiful !");
         System.out.println("Test Push github");
-        System.out.println("git 轮询");
+        System.out.println("git 轮询...");
     }
 }
