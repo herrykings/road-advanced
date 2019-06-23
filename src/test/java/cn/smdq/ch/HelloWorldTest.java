@@ -21,7 +21,7 @@ public class HelloWorldTest {
 
     @Test
     public void demo3() {
-        int a = 1 / 0;
+        int a = 1 / 10;
         System.out.println("CCCCCCCCC");
     }
 
