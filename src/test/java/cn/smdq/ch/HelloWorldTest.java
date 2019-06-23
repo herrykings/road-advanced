@@ -25,4 +25,10 @@ public class HelloWorldTest {
         System.out.println("CCCCCCCCCBB");
     }
 
+    @Test
+    public void demo4() {
+        int a = 2 / 10;
+        System.out.println("CCCCCCCCCBB");
+    }
+
 }
