@@ -19,4 +19,10 @@ public class HelloWorldTest {
         System.out.println("CCCCCCCCC");
     }
 
+    @Test
+    public void demo3() {
+        int a = 1 / 0;
+        System.out.println("CCCCCCCCC");
+    }
+
 }
