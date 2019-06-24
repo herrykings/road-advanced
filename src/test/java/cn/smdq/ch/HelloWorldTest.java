@@ -27,7 +27,7 @@ public class HelloWorldTest {
 
     @Test
     public void demo4() {
-        int a = 2 / 10;
+        int a = 2 / 0;
         System.out.println("CCCCCCCCCnnBB");
     }
 
