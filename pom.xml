@@ -6,7 +6,16 @@
 
     <groupId>cn.smdq.ch</groupId>
     <artifactId>study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>netty-advanced</module>
+        <module>dubbo-advanced</module>
+        <module>mysql-advanced</module>
+        <module>mq-advanced</module>
+        <module>hotkey-probe-advanced</module>
+        <module>distributed-architecture-advanced</module>
+    </modules>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
