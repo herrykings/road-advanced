@@ -1,7 +1,16 @@
 @startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+== NettyServer Start ==
+ServerBootstrap -> ServerBootstrap: bind()
+ServerBootstrap -> ServerBootstrap: doBind()
+ServerBootstrap -> ServerBootstrap: initAndRegister()
+ServerBootstrap -> ChannelFactory: newChannel()
+ChannelFactory --> ServerBootstrap: return channel
+ServerBootstrap -> ServerBootstrap: init(channel)(pipeline添加ServerBootstrapAcceptor)
+ChannelFactory --> ServerBootstrap: config().group().register(channel)
 
+
+
+Bob --> Alice: Authentication Response
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: another authentication Response
 @enduml

@@ -1,0 +1,16 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    name: DubboServer
+    metadata-type: remote
+  config-center:
+    address: nacos://localhost:9999
+  registry:
+    address: nacos://localhost:8848?registry-type=service
+  protocol:
+    name: dubbo
+    port: 20881
+  metadata-report:
+    address: nacos://localhost:9999
+    group: DEFAULT_GROUP
