@@ -1,5 +1,6 @@
 package cn.herry.dubbo.client.consumer;
 
+import cn.herry.dubbo.server.provider.SayHello;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +18,12 @@ import java.util.Map;
 @RequestMapping(value = "/sayHello")
 public class SayHelloController {
 
-    @DubboReference
+    @DubboReference(check = false, providedBy = "DubboServer")
     private SayHello sayHello;
 
     @GetMapping
-    public Object say(){
-        Map<String,String> map = new HashMap<>(1);
+    public Object say() {
+        Map<String, String> map = new HashMap<>(1);
         map.put("msg", sayHello.say("你好"));
         return map;
     }

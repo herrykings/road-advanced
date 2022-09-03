@@ -1,16 +1,18 @@
+server:
+  port: 8787
 dubbo:
   application:
-    name: DubboServer
+    name: DubboClient
     metadata-type: remote
   config-center:
-    address: nacos://localhost:9999
+    address: nacos://localhost:9868
   registry:
     address: nacos://localhost:9868?registry-type=service
   protocol:
     name: dubbo
-    port: 20988
+    port: 20886
   metadata-report:
-    address: nacos://localhost:9999
+    address: nacos://localhost:9868
     group: DEFAULT_GROUP
-server:
-  port: 9898
+  consumer:
+    check: false
