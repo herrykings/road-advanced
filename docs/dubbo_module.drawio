@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T09:53:08.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="53ZGhalPbq7RXjYdEUvO" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T10:01:52.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="EgTfAVBUfA8984CYANTv" type="github">
   <diagram id="ZjGpU4D9dsk0vhYfb42c" name="第 1 页">
     <mxGraphModel dx="2843" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-189" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=0;fillColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="31" y="140" width="320" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="iVxKkr2CtesMYXWZ3AcV-1" value="dubbo-cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1291" y="846" width="180" height="80" as="geometry" />
         </mxCell>
@@ -744,6 +747,36 @@
           <mxGeometry x="0.1733" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-179" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="217" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-180" value="模块实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="83" y="217" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-181" value="抽象模块API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="71" y="165" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-182" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="168" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-183" value="Invoker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="62" y="269" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-184" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="269" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-185" value="Protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="319" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-186" value="Protocol" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="168.5" y="319" width="151.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-187" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;gradientColor=#9AC7BF;" vertex="1" parent="1">
+          <mxGeometry x="168.5" y="370" width="151.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-188" value="包含的功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="58.5" y="370" width="109" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
