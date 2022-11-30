@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T07:55:47.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="8NEdXZ2tHHxg9B1er7eA" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T09:44:41.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="3OEAMPd8fAgG5qUJ7mnU" type="github">
   <diagram id="ZjGpU4D9dsk0vhYfb42c" name="第 1 页">
     <mxGraphModel dx="2843" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -625,10 +625,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iVxKkr2CtesMYXWZ3AcV-156" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;AbstractClusterInvoker" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-156" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;FailfastClusterInvoker" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1202" y="430" width="182" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="iVxKkr2CtesMYXWZ3AcV-157" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;AbstractClusterInvoker" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-157" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;FailoverClusterInvoker" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="970" y="430" width="182" height="45" as="geometry" />
         </mxCell>
         <mxCell id="iVxKkr2CtesMYXWZ3AcV-158" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.088;entryY=-0.022;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -700,11 +700,14 @@
         <mxCell id="iVxKkr2CtesMYXWZ3AcV-168" value="InvokerChain" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="772" y="1105" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iVxKkr2CtesMYXWZ3AcV-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.439;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iVxKkr2CtesMYXWZ3AcV-6">
+        <mxCell id="iVxKkr2CtesMYXWZ3AcV-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.439;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.106;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iVxKkr2CtesMYXWZ3AcV-4" target="iVxKkr2CtesMYXWZ3AcV-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="850" as="sourcePoint" />
             <mxPoint x="170" y="1017" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="400" y="760" />
+              <mxPoint x="229" y="760" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iVxKkr2CtesMYXWZ3AcV-172" value="dependency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iVxKkr2CtesMYXWZ3AcV-171">
